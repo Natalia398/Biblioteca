@@ -1,0 +1,31 @@
+.titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: 60pt;
+}
+.contenido{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+.categorias{
+    font-size: 32pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ctabla{
+    border: 1pt;
+    border-color: black;
+    width: auto;
+    height: auto;
+}
+.c1{
+    align-self: center;
+    width: 200px;
+}
+.k1{
+    width: 300px;
+}
+.k2{
+    width: 300px;
+}
+.k3{
+    width: 300px;
+}
