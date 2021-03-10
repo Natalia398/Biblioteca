@@ -1,14 +1,29 @@
 .titulo{
     font-family: 'Redressed';
-    font-style: 60pt;
+    color: rgb(23, 23, 129);
+    font-size: 45px;
+    font-weight:800;
+    font-style:initial;
+    
+}
+.span7{
+    color: rgb(100, 31, 31);
 }
 .contenido{
     font-family: 'Lobster', cursive;
     font-size: 20pt;
+    color: rgb(1, 1, 44);
+    font-size: 25px;
+    font-weight:500;
+    font-style:inherit;
 }
 .categorias{
     font-size: 32pt;
     font-family: 'Courgette', cursive;
+    color: rgb(27, 27, 112);
+    font-size: 40px;
+    font-weight:400;
+    font-style:initial;
 }
 .ctabla{
     border: 1pt;
