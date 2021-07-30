@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Redressed";
+  color: rgb(23, 23, 129);
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.box1 {
+  width: 100%;
+  height: 700px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 18%;
+  height: 650px;
+  text-align: justify;
+  display: inline-block;
+  margin-left: 5.5%;
+  vertical-align: top;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: cursive;
+}
+img {
+  display:inline-block;
+  margin: 5px auto;
+  
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+/*para pantalla completa(pc)*/
+@media only screen and (min-width:1024px)
+and (max-width: 1680px) {
+  body{
+    background-color: rgb(160, 85, 41);
+  }
+ .box {
+    float: left;
+    width: 40.5%;
+      }
+}
+/*para pantallas pequeñas(pc)*/
+@media only screen and (min-width:768px)
+and (max-width: 1023px) {
+  body{
+    background-color: rgb(156, 41, 160);
+  }
+  .box {
+    float: left;
+    width: 40.5%;
+      }
+    
+}
+/*para celulares*/
+@media only screen and (max-width:767px)
+ {
+  body{
+    background-color: rgb(123, 69, 248);
+  }
+  .box {
+    float: left;
+    width: 88%;
+      }
+}

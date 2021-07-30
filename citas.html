@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>citas</title>
+    <link rel="stylesheet" href="estilos/citas.css" />
+    <link rel="stylesheet" href="estilos/menu.css" />
+  </head>
+  <body>
+    <div class="menu-">
+      <nav class="menu">
+        <a href="index.html">inicio</a>
+        <a href="">citas</a>
+        <a href="contacteno.html">contactenos</a>
+        <a href="catalogo.html">catalogo</a>
+        <a href="usuarios.html">usuarios</a>
+        <a href="vertical.html">menu vertical</a>
+      </nav>
+    </div>
+    <br />
+
+    <h1>Citas</h1>
+    <form action="tabla-citas.html" method="GET">
+      <fieldset>
+        <legend>Ingrese su información</legend>
+        <p>Tipo documento</p>
+        <select name="Documento">
+          <option value="Cedula">C.c</option>
+          <option value="tarjeta">T.i</option>
+          <option value="registro">Registro Civil</option>
+          <option value="pasaporte">Pasaporte</option>
+          <option value="extrangeria">C.c extranjería</option>
+        </select>
+        <p>Numero documento</p>
+        <input type="number" name="numero" /> <br />
+        <p>Medicos</p>
+        <select name="medicos">
+          <option value="Natalia rueda">Natalia rueda</option>
+          <option value="Humberto neita">Humberto neita</option>
+          <option value="Carlos arturo">Carlos arturo</option>
+          <option value="Daniel matias">Daniel matias</option>
+        </select>
+        <p>Horario citas</p>
+        <input class="chekbox" type="checkbox" /> Mañana
+        <br />
+        <input class="chekbox" type="checkbox" /> Tarde <br />
+        <input class="bot" type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+  </body>
+</html>

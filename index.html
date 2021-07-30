@@ -13,56 +13,86 @@
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-
+<link rel="estilos" href="css/estilos.css">
+ <link rel="stylesheet" href="estilos/estilos.css">
     <title>Biblioteca</title>
-                    <link rel="stylesheet" href="estilos/estilos.css">
+                   
     </head>
+    <link rel="stylesheet" href="estilos/img-bacg.css">
+    <link rel="stylesheet" href="estilos/menu.css">
     <body>
-
-
+        <div class="menu-">
+            <nav class="menu">
+                <a href="">inicio</a>
+                <a href="citas.html">citas</a>
+                <a href="contacteno.html">contactenos</a>
+                <a href="catalogo.html">catalogo</a>
+                <a href="usuarios.html">usuarios</a>
+                <a href="vertical.html">menu vertical</a>
+            </nav>
+        </div>
+<br>
+<br>
+<br>
         <center><h1 class="titulo">Biblioteca</h1></center>
-
-        <img src="images/splash.jpg" width="100%">
+ <!-- bacgroud img -->
+        <div class="img-bacg"></div>
 
         <center><p class="contenido">Conoce <span class="span7">aqui</span> el mejor catalogo de libros de todos los generos.</p></center>
 
+
 <p class="categorias">Comedia</p>
-<center><table class="ctabla" border="1">
-<tr><td class="k1"><center><img class="c1" src="images/comedia1.jpg" width="100%"></center><p></p></td>
-    <td class="k2"><center><img class="c1" src="images/comedia2.jpg" width="100%"></center><p></p></td>
-    <td class="k3"><center><img class="c1" src="images/comedia3.jpg" width="40%"></center><p></p></td></tr>
-</table></center>
+
+<div class="ctabla" border="1">
+        <a href="https://www.holaebook.com/book/tracy-bloom-nadie-hace-el-amor-los-martes.html"><img class="c1" src="images/comedia1.jpg" width="100%"></a></center>
+        <img class="c1" src="images/comedia2.jpg" width="100%">
+        <img class="c1" src="images/comedia3.jpg" width="40%">
+</div>
+
 <p class="categorias">Terror - Horror</p>
-<center><table class="ctabla" border="1">
-<tr><td class="k1"><center><img class="c1" src="images/terror1.jpg" width="100%"></center><p></p></td>
-    <td class="k2"><center><img class="c1" src="images/terror2.jpg" width="100%"></center><p></p></td>
-    <td class="k3"><center><img class="c1" src="images/terror3.jpg" width="40%"></center><p></p></td></tr>
-</table></center>
+<td class="ctabla1" border="1">
+    <tr>
+    <img class="c1" src="images/terror1.jpg" width="100%">
+    <img class="c1" src="images/terror2.jpg" width="100%">
+    <img class="c1" src="images/terror3.jpg" width="40%">
+    </tr>
+</td>
 <p class="categorias">Amor y Romance</p>
-<center><table class="ctabla" border="1">
-<tr><td class="k1"><center><img class="c1" src="images/amor1.jpg" width="100%"></center><p></p></td>
-    <td class="k2"><center><img class="c1" src="images/amor2.jpg" width="100%"></center><p></p></td>
-    <td class="k3"><center><img class="c1" src="images/amor3.jpg" width="40%"></center><p></p></td></tr>
-</table></center>
+<div class="ctabla2" border="1">
+    <img class="c1" src="images/amor1.jpg" width="100%">
+    <img class="c1" src="images/amor2.jpg" width="100%">
+    <img class="c1" src="images/amor3.jpg" width="40%">
+</div>
 <p class="categorias">Los mas populares</p>
-<center><table class="ctabla" border="1">
-<tr><td class="k1"><center><img class="c1" src="images/popu1.jpg" width="100%"></center><p></p></td>
-    <td class="k2"><center><img class="c1" src="images/popu2.jpg" width="100%"></center><p></p></td>
-    <td class="k3"><center><img class="c1" src="images/popu3.jpg" width="40%"></center><p></p></td></tr>
-</table></center>
+<div class="ctabla3" border="1">
+    <img class="c1" src="images/popu1.jpg" width="100%">
+    <img class="c1" src="images/popu2.jpg" width="100%">
+    <img class="c1" src="images/popu3.jpg" width="35%">
+</div>
 <p class="categorias">Educativos</p>
-<center><table class="ctabla" border="1">
-<tr><td class="k1"><center><img class="c1" src="images/educativo1.jpg" width="100%"></center><p></p></td>
-    <td class="k2"><center><img class="c1" src="images/educativo2.jpg" width="100%"></center><p></p></td>
-    <td class="k3"><center><img class="c1" src="images/educativo3.webp" width="40%"></center><p></p></td></tr>
-</table></center>
+<div class="ctabla4" border="1">
+    <img class="c1" src="images/educativo1.jpg" width="100%">
+    <img class="c1" src="images/educativo2.jpg" width="100%">
+    <img class="c1" src="images/educativo3.webp" width="40%">
+</div>
+<p class="categorias">Mas libros</p>
 
-
-
-
-
-
-    </body>
+<h1>mapa de imagenes</h1>
+<h2>seleccion de forma cuadradas</h2>
+<img src="images/maslibros.png" alt="mas libros" usemap="#libros"> 
+<map name="libros">
+    <area shape="rect" coords="33,22,218,117"  target="_blank" href="https://trabalibros.com/libros/el-corazon-con-que-vivo-peridis" alt="libro">
+</map>
+<h2>seleccion de forma circular</h2>
+<img src="images/frutas.jpg" alt="frutas" usemap="#frutas"> 
+<map name="frutas">
+    <area shape="circle" coords="504,214,127" target="_Blank" href="https://www.cuerpomente.com/guia-alimentos/naranja" alt="frutas">
+</map>
+<h2>seleccion de forma poligono</h2>
+<img src="images/actores.jpg" alt="actores" usemap="#actores"> 
+<map name="actores">
+    <area shape="polygon" coords="107,85,145,35,187,85,145,132" target="_Blank" href="https://es.famousbirthdays.com/people/cole-sprouse.html" alt="frutas">
+</map>
 
 
 

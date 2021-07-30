@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+body,
+h1,
+p,
+.bot {
+  font-family: cursive;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+form {
+  margin-top: 40px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+input {
+  text-align: center;
+}
+p {
+  text-align: left;
+  padding: 10px;
+}
+
+.bot {
+  padding: 5px;
+  margin: 40px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: ;
+}
