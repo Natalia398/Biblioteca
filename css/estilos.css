@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: "Redressed";
+    color: rgb(23, 23, 129);
+    font-size: 45px;
+    font-weight: 800;
+    font-style: initial;
+    text-align: center;
+}
+
+.span7 {
+    color: rgb(197, 49, 49);
+}
+
+.contenido {
+    font-family: "Lobster", cursive;
+    font-size: 20pt;
+    color: rgb(31, 31, 31);
+    font-size: 25px;
+    font-weight: 500;
+    font-style: inherit;
+    text-align: center;
+}
+
+.titulo-categoria {
+    font-size: 32pt;
+    font-family: "Courgette", cursive;
+    color: rgb(27, 27, 112);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: initial;
+}
+
+.maslibros {
+    font-size: inherit;
+    font-family: "Courgette", cursive;
+    color: rgb(157, 157, 248);
+    font-size: 40px;
+    font-weight: 400;
+    font-style: initial;
+}
+
+#categoria-libro {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.516);
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+#contenedor {
+    width: 200px;
+    padding: 2em;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#principal {
+    margin: 0 auto;
+}
+
+.imgly {
+    width: 200px;
+    height: 350px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.imgly:hover {
+    transform: scale(1.125);
+    transition: all 0.5s ease;
+}
+
+.k1 {
+    width: 1000px;
+}
+
+.k2 {
+    width: 300px;
+}
+
+.k3 {
+    width: 300px;
+}
+
+p.espaciado {
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    line-height: 3em;
+    text-align: justify;
+}
+
+p.izquierda {
+    text-align: left;
+    font-size: 1em;
+}
+
+p.derecha {
+    text-align: right;
+    font-size: 1em;
+}
+
+p.centro {
+    text-align: center;
+    font-size: 1em;
+}
+
+p.justificado {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.indentado {
+    text-align: justify;
+    font-size: 1em;
+    text-indent: 5em;
+}
+
+.primera {
+    font-size: 2em;
+}
+
+.litle {
+    border: solid 3px black;
+    padding: 10px;
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+.litle1 {
+    border: solid 3px black;
+    padding: 10px;
+    background-color: rgb(16, 98, 173);
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+.litle2 {
+    border: solid 3px black;
+    padding: 10px;
+    background-color: rgb(30, 180, 30);
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+.litle3 {
+    border: solid 3px black;
+    padding: 10px;
+    background-color: rgb(255, 230, 0);
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+.litle4 {
+    border: solid 3px black;
+    padding: 10px;
+    background-color: rgb(218, 5, 182);
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}
+
+.litle5 {
+    border: solid 3px black;
+    padding: 10px;
+    background-color: rgb(0, 255, 234);
+    text-align: justify;
+    width: 370px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+}

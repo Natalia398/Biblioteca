@@ -1,97 +1,182 @@
 <!DOCTYPE html>
 
 <html lang="es">
- 
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <meta name="description" content="Ejemplo de HTML5">
-                            <meta name="keywords" content="HTML,CSS3,JavaScript">
-                            <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-<link rel="estilos" href="css/estilos.css">
- <link rel="stylesheet" href="estilos/estilos.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML,CSS3,JavaScript">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/img-bacg.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="icons/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="js/script.js"></script>
     <title>Biblioteca</title>
-                   
-    </head>
-    <link rel="stylesheet" href="estilos/img-bacg.css">
-    <link rel="stylesheet" href="estilos/menu.css">
-    <body>
-        <div class="menu-">
-            <nav class="menu">
-                <a href="">inicio</a>
-                <a href="citas.html">citas</a>
-                <a href="contacteno.html">contactenos</a>
-                <a href="catalogo.html">catalogo</a>
-                <a href="usuarios.html">usuarios</a>
-                <a href="vertical.html">menu vertical</a>
-            </nav>
+
+</head>
+
+
+<body data-aos="fade-down">
+    <label class="ic-menu" onclick="mostrarMenu()"><i class="fas fa-bars"></i></label>
+    <nav id="menu-principal">
+        <ul class="menu">
+            <li><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+            <li><a href="citas.html"><i class="fas fa-users"></i>Citas</a></li>
+            <li><a href="contacteno.html"><i class="fas fa-phone"></i>Contactanos</a></li>
+            <li><a href="catalogo.html"><i class="fas fa-rss-square"></i>Catalogo</a></li>
+            <li><a href="usuarios.html"><i class="fas fa-building"></i>Usuarios</a></li>
+            <li><a href="menu-absolute.html"><i class="fas fa-building"></i>Menu Position Absolute</a></li>
+            <li><a href="menu-fixed.html"><i class="fas fa-building"></i>Menu Position Fixed</a></li>
+            <li><a href="nav-bg.html"><i class="fas fa-building"></i>Menu NavbarCon Background</a></li>
+            <li><a href="nav-vertical.html"><i class="fas fa-building"></i>Menu vertical</a></li>
+            <li><a href="nav-horizontal.html"><i class="fas fa-building"></i>Menu Horizontal</a></li>
+            <li><a href="menu-sub-items.html"><i class="fas fa-building"></i>Menu subItems</a></li>
+            <li><a href="menu-responsive.html"><i class="fas fa-building"></i>Menu Responsive</a></li>
+            <li><a href="menu-vertical-responsive.html"><i class="fas fa-building"></i>Menu Vertical Responsive</a></li>
+            <li><a href="formulario-avanzado.html"><i class="fas fa-building"></i>Form Avanzado</a></li>
+            <li><a href="gradients.html"><i class="fas fa-building"></i>LGradientes</a></li>
+            <li><a href="layout-media-query.html"><i class="fas fa-building"></i>Layout media query</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+
+    <h1 class="titulo">Biblioteca</h1>
+    <!-- bacgroud img -->
+    <div data-aos="fade-down" class="img-bacg"></div>
+
+    <p class="contenido">Conoce <span class="span7">aqui</span> el mejor catalogo de libros de todos los generos.</p>
+    <div data-aos="fade-up" id="categoria-libro">
+        <div id="cabecera">
+            <p class="titulo-categoria">Comedia</p>
         </div>
-<br>
-<br>
-<br>
-        <center><h1 class="titulo">Biblioteca</h1></center>
- <!-- bacgroud img -->
-        <div class="img-bacg"></div>
+        <div id="contenedor">
+            <div id="principal">
+                <img class="imgly" src="images/comedia1.jpg">
+            </div>
+        </div>
+        <div id="contenedor">
+            <div id="principal">
+                <img class="imgly" src="images/comedia2.jpg">
+            </div>
+        </div>
+        <div id="contenedor">
+            <div id="principal">
+                <img class="imgly" src="images/comedia3.jpg">
+            </div>
+        </div>
+    </div>
+    <div data-aos="fade-up" id="categoria-libro">
+        <div id="cabecera">
+            <p class="titulo-categoria">Amor y Romance</p>
+        </div>
+        <div id="contenedor">
+            <div id="principal">
+                <img class="imgly" src="images/amor1.jpg">
+            </div>
+        </div>
+        <div id="contenedor">
+            <div id="principal">
+                <img class="imgly" src="images/amor2.jpg">
+            </div>
+        </div>
+        <div id="contenedor">
+            <div id="principal">
+                <img class="imgly" src="images/amor3.jpg">
+            </div>
+        </div>
+        <div data-aos="fade-up" id="categoria-libro">
+            <div id="cabecera">
+                <p class="titulo-categoria">Educativos</p>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/educativo1.jpg">
+                </div>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/educativo2.jpg">
+                </div>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/educativo3.webp">
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" id="categoria-libro">
+            <div id="cabecera">
+                <p class="titulo-categoria">Terror</p>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/terror1.jpg">
+                </div>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/terror2.jpg">
+                </div>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/terror3.jpg">
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" id="categoria-libro">
+            <div id="cabecera">
+                <p class="titulo-categoria">Populares</p>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/popu1.jpg">
+                </div>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/popu2.jpg">
+                </div>
+            </div>
+            <div id="contenedor">
+                <div id="principal">
+                    <img class="imgly" src="images/popu3.jpg">
+                </div>
+            </div>
+        </div>
 
-        <center><p class="contenido">Conoce <span class="span7">aqui</span> el mejor catalogo de libros de todos los generos.</p></center>
 
 
-<p class="categorias">Comedia</p>
 
-<div class="ctabla" border="1">
-        <a href="https://www.holaebook.com/book/tracy-bloom-nadie-hace-el-amor-los-martes.html"><img class="c1" src="images/comedia1.jpg" width="100%"></a></center>
-        <img class="c1" src="images/comedia2.jpg" width="100%">
-        <img class="c1" src="images/comedia3.jpg" width="40%">
-</div>
+        <p class="categorias ">Mas libros</p>
 
-<p class="categorias">Terror - Horror</p>
-<td class="ctabla1" border="1">
-    <tr>
-    <img class="c1" src="images/terror1.jpg" width="100%">
-    <img class="c1" src="images/terror2.jpg" width="100%">
-    <img class="c1" src="images/terror3.jpg" width="40%">
-    </tr>
-</td>
-<p class="categorias">Amor y Romance</p>
-<div class="ctabla2" border="1">
-    <img class="c1" src="images/amor1.jpg" width="100%">
-    <img class="c1" src="images/amor2.jpg" width="100%">
-    <img class="c1" src="images/amor3.jpg" width="40%">
-</div>
-<p class="categorias">Los mas populares</p>
-<div class="ctabla3" border="1">
-    <img class="c1" src="images/popu1.jpg" width="100%">
-    <img class="c1" src="images/popu2.jpg" width="100%">
-    <img class="c1" src="images/popu3.jpg" width="35%">
-</div>
-<p class="categorias">Educativos</p>
-<div class="ctabla4" border="1">
-    <img class="c1" src="images/educativo1.jpg" width="100%">
-    <img class="c1" src="images/educativo2.jpg" width="100%">
-    <img class="c1" src="images/educativo3.webp" width="40%">
-</div>
-<p class="categorias">Mas libros</p>
-
-<h1>mapa de imagenes</h1>
-<h2>seleccion de forma cuadradas</h2>
-<img src="images/maslibros.png" alt="mas libros" usemap="#libros"> 
-<map name="libros">
-    <area shape="rect" coords="33,22,218,117"  target="_blank" href="https://trabalibros.com/libros/el-corazon-con-que-vivo-peridis" alt="libro">
+        <h1>mapa de imagenes</h1>
+        <h2>seleccion de forma cuadradas</h2>
+        <img src="images/maslibros.png " alt="mas libros " usemap="#libros ">
+        <map name="libros ">
+    <area shape="rect " coords="33,22,218,117 "  target="_blank " href="https://trabalibros.com/libros/el-corazon-con-que-vivo-peridis " alt="libro ">
 </map>
-<h2>seleccion de forma circular</h2>
-<img src="images/frutas.jpg" alt="frutas" usemap="#frutas"> 
-<map name="frutas">
-    <area shape="circle" coords="504,214,127" target="_Blank" href="https://www.cuerpomente.com/guia-alimentos/naranja" alt="frutas">
+        <h2>seleccion de forma circular</h2>
+        <img src="images/frutas.jpg " alt="frutas " usemap="#frutas ">
+        <map name="frutas ">
+    <area shape="circle " coords="504,214,127 " target="_Blank " href="https://www.cuerpomente.com/guia-alimentos/naranja " alt="frutas ">
 </map>
-<h2>seleccion de forma poligono</h2>
-<img src="images/actores.jpg" alt="actores" usemap="#actores"> 
-<map name="actores">
-    <area shape="polygon" coords="107,85,145,35,187,85,145,132" target="_Blank" href="https://es.famousbirthdays.com/people/cole-sprouse.html" alt="frutas">
+        <h2>seleccion de forma poligono</h2>
+        <img src="images/actores.jpg " alt="actores " usemap="#actores ">
+        <map name="actores ">
+    <area shape="polygon " coords="107,85,145,35,187,85,145,132 " target="_Blank " href="https://es.famousbirthdays.com/people/cole-sprouse.html " alt="frutas ">
 </map>
 
 
@@ -104,7 +189,11 @@
 
 
 
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
 
 
 

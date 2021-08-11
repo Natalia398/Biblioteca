@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d3d3d3;
+    color: rgba(255, 255, 255, .4);
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgba(50, 37, 10, 0.8);
+    position: fixed;
+    padding-right: 2em;
+    padding-top: 3em;
+    z-index: 10;
+    left: -20em;
+    top: 0;
+    transition: all .5s;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    height: 39em;
+    overflow-x: hidden;
+}
+
+nav::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+nav::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+nav::-webkit-scrollbar-button:increment,
+.contenedor::-webkit-scrollbar-button {
+    display: none;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+}
+
+nav::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+    line-height: 60px;
+    margin: 2em auto 0 auto;
+    width: 16em;
+    padding-left: 0.1em;
+}
+
+.menu a {
+    color: white;
+    font-family: 'Courgette';
+    text-decoration: none;
+    display: block;
+    padding-left: 3em;
+    width: 100%;
+    transition: all .5s;
+}
+
+.menu a:hover {
+    margin-left: 1em .5s;
+    color: darkgray;
+}
+
+.menu li {
+    box-shadow: 3px 0 rgba(255, 255, 255, .2) inset;
+    padding-left: .8em;
+    margin-bottom: 5;
+    transition: all .5s;
+}
+
+.menu li:hover {
+    box-shadow: 15em 0 rgba(255, 255, 255, .2) inset;
+}
+
+.fas,
+.fab {
+    color: white;
+    font-size: 1em;
+    padding-right: .3em;
+}
+
+.fa-bars {
+    position: absolute;
+    z-index: 20;
+}
+
+label.ic-menu {
+    position: fixed;
+    z-index: 20;
+    top: 20px;
+    left: 20px;
+    font-size: 2em;
+}
+
+nav.mostrar {
+    left: 0;
+    transition: all 1s;
+}
