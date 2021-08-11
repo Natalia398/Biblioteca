@@ -18,7 +18,7 @@ h1 {
 
 nav {
     background-color: rgba(0, 0, 0, .8);
-    position: absolute;
+    position: fixed;
     height: 100%;
     padding-right: 2em;
     padding-top: 3em;
@@ -70,7 +70,7 @@ nav {
 }
 
 .fa-bars {
-    position: absolute;
+    position: fixed;
     z-index: 20;
 }
 
